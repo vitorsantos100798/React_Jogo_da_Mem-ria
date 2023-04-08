@@ -16,7 +16,7 @@
     <h2>Como instalar</h2>
     <p>O jogo está disponível no GitHub e pode ser acessado através deste link: <a>https://react-jogo-da-mem-ria.vercel.app/</a></p>
     <h2>Personalização</h2>
-    <p>O jogo pode ser facilmente personalizado, com novas imagens de fundo, novas imagens de cartas e novas configurações de tempo e pontuação. Se você quiser personalizar o jogo, basta editar os arquivos HTML, CSS e JavaScript.</p>
+    <p>O jogo pode ser facilmente personalizado, com novas imagens de fundo, novas imagens de cartas e novas configurações de tempo e pontuação. Se você quiser personalizar o jogo, basta editar os arquivos.</p>
     <h2>Créditos</h2>
     <p>Este jogo foi criado por Vitor Santos.</p>
 </body>
