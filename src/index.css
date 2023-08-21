@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#fugindo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease;
+}
+
+.fugindo:hover {
+  animation: moveButton 2s linear infinite;
+}
+
+.fugindo:active {
+  pointer-events: none; /* Impede o clique durante a animação */
+}
+
+@keyframes moveButton {
+  0%, 100% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate(100px, 100px);
+  }
+}
+.ContainerBtn > button {
+  background-color: rgb(255, 0, 51);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 40px;
+  height: 50px;
+  width: 100px;
+}

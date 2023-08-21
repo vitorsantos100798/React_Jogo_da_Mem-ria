@@ -111,7 +111,7 @@ const App: React.FC = () => {
           style={{
             color: "white",
             fontFamily: "cursive",
-            fontSize: 20,
+            fontSize: 50,
           }}
         >
           Jogo de Memória
@@ -120,10 +120,12 @@ const App: React.FC = () => {
       {gameEnded ? (
         <div>
           {score === game.cards.length / 2 ? (
-            <div>
-              <h2>Parabéns! Você conseguiu!</h2>
-              <button onClick={() => alert("sim")}>Sim</button>
-              <button onClick={() => alert("não")}>Não</button>
+            <div className="ContainerBtn">
+              <h2>Quer Namorar comigo ?</h2>
+              <button onClick={() => alert("TE AMO ❤️❤️❤️")}>Sim</button>
+              <button className="fugindo" onClick={() => alert("não")}>
+                Não
+              </button>
             </div>
           ) : (
             <div>
@@ -143,8 +145,8 @@ const App: React.FC = () => {
               <div
                 key={index}
                 style={{
-                  width: "60px",
-                  height: "60px",
+                  width: "120px",
+                  height: "120px",
                   border: "3px solid  #DB3026",
                   margin: "10px",
                   borderRadius: 12,
@@ -160,17 +162,17 @@ const App: React.FC = () => {
                     src={card}
                     alt={`Card ${index}`}
                     style={{
-                      height: 60,
-                      width: 60,
-                      borderRadius: 2,
+                      height: 120,
+                      width: 120,
+                      borderRadius: 10,
                     }}
                   />
                 ) : (
                   <img
                     src={require("./assets/coração.png")}
                     style={{
-                      height: 20,
-                      width: 20,
+                      height: 50,
+                      width: 50,
                     }}
                   />
                 )}
